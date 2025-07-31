@@ -1,0 +1,34 @@
+/* 
+
+body {
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, #333 50%), url(./imgs/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-position: 25% 25%;
+    height: 150vh;
+    width: 100%;
+    margin-block-end: -50vh;
+} */
+@layer reset, base, theme, utils;
+
+@layer reset {
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer theme {
+}
+
+@layer base {
+}
+
+@layer utils {
+  .font-serif {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  }
+
+  .font-sans {
+    font-family: "Poppins", Arial, sans-serif;
+  }
+}
